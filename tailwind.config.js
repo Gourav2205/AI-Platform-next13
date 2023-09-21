@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        'signinBg': "url('/signin-bg.svg')"
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
